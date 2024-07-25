@@ -1,5 +1,5 @@
 body{
-    background-color: #f1e5b4;
+    background-color: #ffffff;
 }
 @font-face{
     font-family: 'Monterrat';
@@ -11,20 +11,18 @@ body{
     justify-content: space-around;
     border-bottom: 1px solid #A5A5A5;
     align-items: center;
-    padding: 10px;
-    
-}
-.logo-header{
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+    padding: 10px;  
+    background-color: #f1e5b4;    
 }
 .logo{
     padding: 0;
     max-height: 40px;
     max-width: 300px;
+}
+
+.logo-header{
+    position: fixed;
+    
 }
 footer{
     height: auto;
@@ -34,13 +32,12 @@ footer{
 .menu-item{
     display: flex;
     justify-content: space-around;
-    margin: 0;
+    align-items: center;
     font-family: 'Monterrat', sans-serif;
     list-style-type: none;
-    flex: 1;
-    margin-right: 10px;
-    gap: 10px;
-    padding: 0;
+    flex: none;
+    padding: 15px;
+
 }
 .menu a {
     text-align: center;
@@ -56,4 +53,10 @@ footer{
     color: #967F50;
     transform: scale(110%);
     transition-duration: 0.3s;
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #967F50;
 }
